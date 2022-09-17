@@ -1,0 +1,113 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(226, 225, 217);
+}
+
+.navD {
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.logo {
+    border: 1px solid rgb(54, 172, 207);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrapperX {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.tbl-full {
+    width: 70%;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #ff4757;
+}
+
+.btn-primary {
+    background-color: rgba(144, 14, 144, 0.667);
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(45, 20, 185, 0.667);
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-secondary {
+    background-color: rgba(70, 192, 70, 0.667);
+    padding: 1%;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(18, 71, 27, 0.667);
+}
+
+.btn-danger {
+    background-color: rgba(199, 71, 103, 0.667);
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.btn-danger:hover {
+    background-color: rgba(179, 18, 12, 0.667);
+}
+
+.error {
+    color: rgb(196, 26, 26);
+    font-size: 25px;
+}
+
+
+.success {
+    color: rgb(28, 160, 39);
+    font-size: 25px;
+}
+
+/* .loginText {
+    font-size: 2rem;
+    font-weight: 800;
+} */
+
+.registerText a {
+    text-decoration: none;
+}
